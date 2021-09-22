@@ -1,13 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
+  text-align: start;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0C1014;
+  color: rgb(255, 255, 255);
+  /* background: linear-gradient(to right, #FDFBFB, #EBEDEE 70%); */
+}
+*{
+  text-align: start;
+  margin: 0;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+  background: linear-gradient(to right, #2FB8FF 0%, #8FE4DD 100%);
+  background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.orbitron{
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to right, #D10955 0%, #FEBE54 100%);
+  background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.knewave{
+  font-family: 'Knewave', cursive;
+  font-weight: 100;
+  background: linear-gradient(to right, #F15E85 0%, #6572D8 100%);
+  background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.monoton{
+  font-family: 'Monoton', cursive;
+  font-weight: 200;
+  background: linear-gradient(to right, #A04FAB 0%, #EEB96D 100%);
+  background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.press{
+  font-family: 'Press Start 2P', cursive;
+  background: linear-gradient(to right, #A04FAB 0%, #EEB96D 100%);
+  background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.mainText{
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-60%);
+  margin-left: 20px;
+}
+
+.mainText h1{
+  font-size: 80px;
+  font-weight: 900;
+  text-align: start;
+  margin: 0%;
+}
+.mainText h2{
+  font-size: 50px;
+  font-weight: 900;
+  text-align: start;
+  margin: 0;
+
+}
+
+.light{
+  font-weight: 200;
+}
+
+.versionbox{
+  background-image: url(./img/svgbox-01.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px;
+  margin: 20px;
+  position: absolute;
+  right: 0;
+}
+
+.versionbox h4{
+  font-weight: 900;
+  font-size: 20px;
+}
+.versionbox h5{
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.versionbox h3{
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 30px;
+}
+/* .linkbox{
+  position: absolute;
+  bottom: 0px;
+  left: 50vw;
+  transform: translateX(-50%);
+} */
+
+.icon {
+  margin: 20px 10px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  transition-delay: 2;
+  /* transition-timing-function: ease-out; */
+}
+/* .icon-linkedin {
+  background-image: url(./img/linked-in-01.svg);
+}
+.icon-linkedin:hover,
+.icon-linkedin:focus {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+.icon-github {
+  background-image: url(./img/github-01.svg);
+}
+.icon-github:hover,
+.icon-github:focus {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+.icon-instagram {
+  background-image: url(./img/instagram-01.svg);
+}
+.icon-instagram:hover,
+.icon-instagram:focus {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+} */
+
+
+.icon-linkedin {
+  background-image: url(./img/linked-in-01.svg);
+}
+.icon-linkedin:hover,
+.icon-linkedin:focus {
+  background-image: url(./img/linked-in-active-01.svg);
+}
+.icon-github {
+  background-image: url(./img/github-01.svg);
+}
+.icon-github:hover,
+.icon-github:focus {
+  background-image: url(./img/github-active-01.svg);
+}
+.icon-instagram {
+  background-image: url(./img/instagram-01.svg);
+}
+.icon-instagram:hover,
+.icon-instagram:focus {
+  background-image: url(./img/instagram-active-01.svg);
+}
+
+
+
+@media (max-width: 992px) { 
+  .mainText h1{
+    font-size: 60px;
+  }
+  .mainText h2{
+    font-size: 40px;
+
+  }
+  .versionbox h4{
+    font-weight: 900;
+    font-size: 15px;
+  }
+  .versionbox h5{
+    font-weight: 100;
+    font-size: 15px;
+  }
+  
+  .versionbox h3{
+    font-weight: 900;
+    font-size: 25px;
+  }
+
+}
+
+@media (max-width: 575.98px) {  
+  .mainText h1{
+    font-size: 40px;
+
+  }
+  .mainText h2{
+    font-size: 25px;
+  }
+  .versionbox h4{
+    font-weight: 900;
+    font-size: 10px;
+  }
+  .versionbox h5{
+    font-weight: 100;
+    font-size: 10px;
+  }
+  
+  .versionbox h3{
+    font-weight: 900;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {  
+  .mainText{
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
+    margin-left: 10px;
+  }
+  .mainText h1{
+    font-size: 30px;
+  
+  }
+  .mainText h2{
+    font-size: 20px;
+  }
+  .versionbox h4{
+    font-weight: 900;
+    font-size: 10px;
+  }
+  .versionbox h5{
+    font-weight: 100;
+    font-size: 10px;
+  }
+  
+  .versionbox h3{
+    font-weight: 900;
+    font-size: 15px;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    /* transition-timing-function: ease-out; */
+  }
 }
