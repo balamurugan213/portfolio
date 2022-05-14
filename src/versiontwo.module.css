@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Dalek";
+    src: local("Dalek"),
+    url("./fonts/Dalek.ttf") format("truetype");
+    font-weight: bold;
+    }
+@font-face {
+font-family: "Cube";
+src: local("Cube"),
+url("./fonts/Cube.ttf") format("truetype");
+/* font-weight: bold; */
+    }
+
+@font-face {
+    font-family: "DalekPinpointBold";
+    src: local("DalekPinpointBold"),
+    url("./fonts/DalekPinpointBold.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+.headertext{
+    position: relative;
+    top: 50vh;
+    left: 60px;
+    transform: translateY(-100%);
+}
+
+.headertext h1{
+    font-family:"DalekPinpointBold";
+    font-size: 50px;
+}
+
+.headertext p{
+    font-family:"Roboto";
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.headertext h3{
+    font-family:"DalekPinpointBold";
+    color: #EA4A4C;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.versionboxtwo{
+    display: grid;
+    /* place-items: center; */
+    width: 220px;
+    padding: 20px;
+    color: #000;
+    box-sizing: border-box;
+    position: relative;
+    left: 100vw;
+    transform: translateX(-220px);
+    text-align: left;
+}
+
+.versionboxtwo h1{
+    font-family:"Cube" ;
+    font-size: 20px;
+
+}
+.versionboxtwo h3{
+    font-family:"Roboto" ;
+    font-weight: lighter;
+    font-style:italic;
+    /* font-size: 20px; */
+
+}
+.versionboxtwo h2{
+    font-family:"DalekPinpointBold" ;
+    font-size: 28px;
+
+    
+    /* font-size: 20px; */
+
+}
+.versionboxtwo h2 .highlight{
+    color: #EA4A4C;
+}
+
+
+
+@media (max-width: 992px) { 
+
+    .headertext h1{
+    font-size: 40px;
+    }
+
+    .headertext{
+    left: 20px;
+    }
+
+    .headertext p{
+    font-size: 20px;
+    }
+
+}
+
+@media (max-width: 575.98px) {  
+    .headertext h1{
+    font-size: 30px;
+    }
+
+    .headertext p{
+    font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {  
+    .headertext h1{
+    font-size: 30px;
+    }
+}

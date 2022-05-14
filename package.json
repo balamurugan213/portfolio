@@ -10,7 +10,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "three": "^0.121.0",
     "typed.js": "^2.0.12",
+    "vanta": "^0.5.22",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

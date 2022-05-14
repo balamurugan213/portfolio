@@ -34,7 +34,7 @@ const MainText = () => {
     }, []);
 
     return ( 
-        <div className="mainText">
+        <div className="mainText" >
             <h2>Hi, I am <span className='light'>Balamurugan213 </span>  </h2>
             <h1>I Love <span className=''><span ref={el}></span></span> </h1>
         <LinkBox></LinkBox>
