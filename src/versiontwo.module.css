@@ -53,6 +53,7 @@ url("./fonts/Cube.ttf") format("truetype");
     box-sizing: border-box;
     position: relative;
     left: 100vw;
+    margin: 0px;
     transform: translateX(-220px);
     text-align: left;
 }
@@ -107,10 +108,24 @@ url("./fonts/Cube.ttf") format("truetype");
     .headertext p{
     font-size: 16px;
     }
+    .versionboxtwo h1{
+        font-size: 16px;
+    }
+    .versionboxtwo{
+        width: 200px;
+        transform: translateX(-200px);
+    }
 }
 
 @media (max-width: 400px) {  
     .headertext h1{
     font-size: 30px;
+    }
+    .versionboxtwo h1{
+        font-size: 14px;
+    }
+    .versionboxtwo{
+        width: 180px;
+        transform: translateX(-180px);
     }
 }

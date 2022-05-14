@@ -1,7 +1,7 @@
 {
-  "homepage": "http://balamurugan213.github.io/portfolio",
+  "homepage": "http://balamurugan213.github.io/Portfolio",
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-responsive": "^9.0.0-beta.8",
     "react-scripts": "4.0.3",
     "three": "^0.121.0",
     "typed.js": "^2.0.12",
