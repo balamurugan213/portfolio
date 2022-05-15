@@ -1,6 +1,5 @@
 import styles from '../versiontwo.module.css'
 import { useMediaQuery } from 'react-responsive'
-import logo from '../img/icons/github-brands.svg';
 
 const HeaderTitle = () => {
     return ( 
