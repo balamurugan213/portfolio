@@ -10,11 +10,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-responsive": "^9.0.0-beta.8",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5.0.1",
     "three": "^0.121.0",
     "typed.js": "^2.0.12",
     "vanta": "^0.5.22",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
