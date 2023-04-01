@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4b3d827d.css",
-    "main.js": "/portfolio/static/js/main.193185da.js",
+    "main.css": "/portfolio/static/css/main.0bad4c2b.css",
+    "main.js": "/portfolio/static/js/main.b2c6de2c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Dalek.ttf": "/portfolio/static/media/Dalek.c613220133af77f0d5ae.ttf",
+    "static/media/JustAnotherHand-Regular.ttf": "/portfolio/static/media/JustAnotherHand-Regular.e0d4bdcc6e72779560b3.ttf",
     "static/media/DalekPinpointBold.ttf": "/portfolio/static/media/DalekPinpointBold.cb54d752865fdfa2b1bf.ttf",
     "static/media/Cube.ttf": "/portfolio/static/media/Cube.60f90e41620461f90764.ttf",
     "static/media/github-active-01.svg": "/portfolio/static/media/github-active-01.da77ec6445b9d44f0654.svg",
@@ -14,12 +15,12 @@
     "static/media/linked-in-01.svg": "/portfolio/static/media/linked-in-01.f9d17564ec5c726215d3.svg",
     "static/media/svgbox-01.svg": "/portfolio/static/media/svgbox-01.f57e41e56fb95b1a37f8.svg",
     "static/media/instagram-01.svg": "/portfolio/static/media/instagram-01.7f1f5160006bfdf65178.svg",
-    "main.4b3d827d.css.map": "/portfolio/static/css/main.4b3d827d.css.map",
-    "main.193185da.js.map": "/portfolio/static/js/main.193185da.js.map",
+    "main.0bad4c2b.css.map": "/portfolio/static/css/main.0bad4c2b.css.map",
+    "main.b2c6de2c.js.map": "/portfolio/static/js/main.b2c6de2c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b3d827d.css",
-    "static/js/main.193185da.js"
+    "static/css/main.0bad4c2b.css",
+    "static/js/main.b2c6de2c.js"
   ]
 }
