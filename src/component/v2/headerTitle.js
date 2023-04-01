@@ -1,4 +1,4 @@
-import styles from '../versiontwo.module.css'
+import styles from '../../versiontwo.module.css'
 import { useMediaQuery } from 'react-responsive'
 
 const HeaderTitle = () => {

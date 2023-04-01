@@ -1,4 +1,4 @@
-import styles from '../versiontwo.module.css'
+import styles from '../../versiontwo.module.css'
 
 const VersionTextTwo = () => {
     return ( 
